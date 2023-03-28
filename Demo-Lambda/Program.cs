@@ -1,7 +1,4 @@
-﻿
-using System.Threading.Tasks.Dataflow;
-
-int value = -15;
+﻿int value = -15;
 
 static bool Analyse(Func<int,bool> formule, int value) {
     return formule(value);
